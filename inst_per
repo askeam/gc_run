@@ -1,0 +1,9 @@
+#!/bin/sh
+
+sudo apt-get update
+
+wget https://raw.githubusercontent.com/askeam/gc_run/master/inst_pf
+
+chmod +x inst_pf
+
+sudo ./inst_pf
