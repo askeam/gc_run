@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sudo apt update
+
+sudo apt install gce-compute-image-packages google-compute-engine-oslogin python3-google-compute-engine
